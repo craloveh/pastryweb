@@ -1,0 +1,174 @@
+<!Doctype html>
+
+<html>
+	<head>
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Familly pastry</title>
+		<meta charset="utf-8"/>
+		<link rel="Stylesheet" type="text/css" href="mystyle/styles.css"/>
+		<link rel="Stylesheet" type="text/css" href="mystyle/grid.css"/>
+		<link rel="Stylesheet" type="text/css" href="mystyle/men.css"/>
+		<link rel="Stylesheet" type="text/css" href="mystyle/myslide.css"/>
+
+		
+	
+	
+		<script defer src="mystyle/counter.js"></script>
+			<script defer src="mystyle/myslide.js"></script>
+    <link rel="stylesheet" href="mystyle/counter.css" />
+	</head>
+	
+	<body>
+	<!-- My page contener  -->
+		<div id="contener">
+		<!-- Header have my title progress bar -->
+				<header>
+						
+						<div id="header_image">
+							
+							
+							
+							
+							
+						</div> 
+						
+						<div class="progress-container">
+							<div class="progress-bar" id="myBar"></div>
+				</header>
+				
+				<nav>
+				
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="publication.html">News</a>
+   <a href="read.php">Liste Publication</a>
+  <a href="contact.html#contact">Contact</a>
+  <div class="topnav-right">
+    <a href="#search">Search</a>
+    <a href="about.html">About</a>
+  </div>
+</div>
+				
+				</nav>
+				<section>
+						
+		 
+		 <article>
+		
+		 
+		 <table>
+					  <thead>
+						<tr>
+						  <th></th>
+						 
+						</tr>
+					  </thead>
+					  <tbody>
+						<tr>
+						  <td>
+								
+								<form action="f_pub.php" method="post">
+
+									  
+
+									  <table>
+									  <tr>
+									  <td>
+									   
+										 <label for="psw">Title</label>
+									</td>
+									<td>
+										<input type="text" placeholder="Enter the title" name="title" id="title" required> 
+										
+											</td>
+									</tr>
+
+									<tr>
+									<td>
+											<label for="name">Publication text</label>
+										</td>
+										<td>
+										<textarea rows="15" cols="50" name="text_pub" maxlength="1000">
+
+										</textarea>
+									<!--	
+									<input type="tex"  maxlength="50" placeholder="enter the text" name="textpub" id="textpub" onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode == 32)"   style="text-transform:uppercase" required>
+-->
+									</td>
+									</tr>
+									<tr>
+									<td>
+										  <label for="name">Image</label>
+									</td>
+									<td>
+										<input type="file" placeholder="Enter the picture" name="image" id="image" accept="image/*"  ><br>
+										
+
+									 </td>
+									</tr>
+									<tr>
+									<td>
+									<button type="submit" class="registerbtn">Enregistrer</button>
+									<td>
+									
+									</tr>
+									
+									</table>
+										<!--<p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p> -->
+
+										
+									<!--
+									  
+									  <div class="container signin">
+										<p>Vous avez déjà un compte? <a href="#">Connexion</a>.</p>
+									  </div> -->
+									  
+
+									</form>	
+								
+								
+						 </td>
+						</tr>
+					  </tbody>
+					  
+					</table>
+						 
+						</tr>
+					  
+					  
+					  <tr>
+						  <td>
+						 
+					 
+		 </article>
+		
+			
+				</section>
+				
+			
+				
+				<footer>
+								
+				</footer>
+				
+	</div>
+	
+	
+	<script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+
+
+}
+</script>
+
+	<body>
+</html>
