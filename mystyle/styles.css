@@ -102,7 +102,7 @@ footer
 	height:auto;
 	width: 100%;
 	
-	float:right;
+	
 	
 	padding-top: 20px;
 	padding-right: 0px;
@@ -167,6 +167,25 @@ width:22%;
 	margin-right:22%;
 	margin-left:22%;
 	}
+	
+#message{
+float:right;
+	width:60%;
+	height:467px;
+	background-color:#E59866 ;
+	margin-right:0%;
+	/*margin-left:22%;*/
+	}	
+#Comments{
+	float:left;
+	width:40%;
+	height:365px;
+	margin-left:0%;
+	
+		background-color:white ;  
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
 table
 	{
 	
